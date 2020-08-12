@@ -1,0 +1,96 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Educación
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen class="ion-padding" scroll-y="false">
+  <ion-slides>
+    <ion-slide>
+      <div class="slide">
+        <img style="width: 200px; height: 100px;" src="https://elvismpq.github.io/curriculum/images/Escuela.PNG"/>
+        <h2>Primaria</h2>
+        <p><b>Escuela Concentración Deportiva de Pichincha</b><br>Quito - Ecuador<br>
+          <b style="color: #60646b;">Deslize >></b></p>
+        
+      </div>
+      
+    </ion-slide>
+
+    <ion-slide>
+      <img style="width: 200px; height: 100px;" src="https://elvismpq.github.io/curriculum/images/Montufar.png"/>
+      <h2>Secundaria</h2>
+      <p><b>Colegio Naciona Juan Pío Montufar<br>Titulo:</b> Físico - Matemático <br> Quito - Ecuador <br></p>
+    </ion-slide>
+
+    <ion-slide>
+      <img style="width: 200px; height: 100px;" src="https://elvismpq.github.io/curriculum/images/epn.png"/>
+      <h2>Superior</h2>
+      <p><b>Ecuela Politécnica Nacional <br> Carrera: </b>Tecnología en Análisis de Sistemas Informáticos <br> Quito - Ecuador </p>
+    </ion-slide>
+
+  </ion-slides>
+  <ion-fab horizontal="end" vertical="top" slot="fixed" edge>
+    <ion-fab-button>
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-list>
+      <ion-fab-button color="light" href="https://facebook.com/elvismpq">
+        <ion-icon name="logo-facebook"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button color="light" href="https://twitter.com/elvisma63739232">
+        <ion-icon name="logo-twitter"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button color="light" href="https://www.youtube.com/channel/UCYMefPmjA801gJp6ES0850A?view_as=subscriber">
+        <ion-icon name="logo-youtube"></ion-icon>
+      </ion-fab-button>
+    </ion-fab-list>
+  </ion-fab>
+</ion-content>
+<style>
+  ion-slides {
+    height: 100%;
+  }
+  
+
+  .swiper-slide {
+    display: block;
+  }
+
+  .swiper-slide h2 {
+    margin-top: 2.8rem;
+  }
+
+  .swiper-slide img {
+    max-height: 50%;
+    max-width: 80%;
+    margin: 30px 0 20px;
+    pointer-events: none;
+  }
+
+  b {
+    font-weight: 500;
+  }
+
+  p {
+    padding: 0 40px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--ion-color-step-600, #60646b);
+  }
+
+  p b {
+    color: var(--ion-text-color, #000000);
+  }
+</style>
+
+<!--<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Educación</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+</ion-content>-->
